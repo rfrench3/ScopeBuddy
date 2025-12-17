@@ -24,7 +24,7 @@ Source0:    %{name}-%{version}.tar.gz
 A manager script to make gamescope easier to use on desktop.
 
 %prep
-%autosetup -n ScopeBuddy-main
+%autosetup -n %{name}-%{version}
 
 %build
 # nothing to build
