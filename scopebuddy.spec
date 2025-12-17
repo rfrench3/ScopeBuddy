@@ -1,6 +1,6 @@
 Name:       scopebuddy
 Version:    1.3.0
-Release:    4
+Release:    5
 Summary:    Manager script for gamescope
 License:    Apache-2.0
 
@@ -40,6 +40,9 @@ ln -s scopebuddy %{buildroot}%{_bindir}/scb
 #TODO: fedora packaging guidelines recommend man pages to be included
 
 %changelog
+* Wed Dec 17 2025 Robert French <frenchrobertm@outlook.com> 1.3.0-5
+- Testing automatic building of scopebuddy on the COPR 
+
 * Wed Dec 17 2025 Robert French <frenchrobertm@outlook.com> 1.3.0-4
 - update spec: install the script and not the entire tar archive
   (178658682+rfrench3@users.noreply.github.com)
