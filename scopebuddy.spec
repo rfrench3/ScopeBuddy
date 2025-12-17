@@ -1,6 +1,6 @@
 Name:       scopebuddy
 Version:    1.3.0
-Release:    1%{?dist}
+Release:    2
 Summary:    Manager script for gamescope
 License:    Apache-2.0
 
@@ -40,6 +40,9 @@ ln -s scopebuddy %{buildroot}%{_bindir}/scb
 #TODO: fedora packaging guidelines recommend man pages to be included
 
 %changelog
+* Wed Dec 17 2025 Robert French <frenchrobertm@outlook.com> 1.3.0-2
+- testing rpm for copr (178658682+rfrench3@users.noreply.github.com)
+
 * Wed Dec 17 2025 Robert French <frenchrobertm@outlook.com> 1.3.0-1
 - new package built with tito
 
