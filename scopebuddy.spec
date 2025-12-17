@@ -31,7 +31,7 @@ A manager script to make gamescope easier to use on desktop.
 
 %install
 mkdir -p %{buildroot}%{_bindir}
-install -m 755 %{SOURCE0} %{buildroot}%{_bindir}/scopebuddy
+install -m 755 bin/scopebuddy %{buildroot}%{_bindir}/scopebuddy
 ln -s scopebuddy %{buildroot}%{_bindir}/scb
 
 %files
